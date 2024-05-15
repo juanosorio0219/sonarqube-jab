@@ -23,6 +23,13 @@ Creamos un proyecto local
 
 ## Hacemos la revisión de nuestro proyecto
 En este caso usé un proyecto de Spring Boot, creado con maven
+```bash
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=philanthropy-back \
+  -Dsonar.projectName='philanthropy-back' \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_1653f3b5cb1f4e04642480bddb32adcfbf456465
+```
 
 <img width="1232" alt="Screenshot 2024-05-14 at 8 48 48 PM" src="https://github.com/juanosorio0219/sonarqube-jab/assets/80568091/cc9f2f8f-0103-4493-a25f-93b7515f38ee">
 <img width="1335" alt="Screenshot 2024-05-14 at 8 49 40 PM" src="https://github.com/juanosorio0219/sonarqube-jab/assets/80568091/cc057ce9-fdd5-4049-a8b7-834bce86b7bf">
